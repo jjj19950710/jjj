@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@null"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textColor="#ff0">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        card_view:cardBackgroundColor="#11CD83"
+        card_view:cardCornerRadius="15dp"
+        card_view:cardElevation="0dp"
+        card_view:contentPadding="10dp">
+        <!--id字段不可见，其它字段可见-->
+
+        <TextView
+            android:id="@+id/textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:textSize="28sp" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
