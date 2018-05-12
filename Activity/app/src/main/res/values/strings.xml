@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="btn_1">向SecondActivity发送数据</string>
+    <string name="btn_2">返回MainActivity的数据</string>
+    <string name="btn_3">收到MainActivity的数据</string>
+    <string name="btn_4">向ThirdActivity发送数据</string>
+</resources>
